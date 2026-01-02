@@ -42,6 +42,11 @@ El proyecto **compila y levanta correctamente**, cumpliendo los requisitos funci
 git clone https://github.com/Kevin-March/CurrencyConverter.git
 cd CurrencyConverter
 
+### 3. Crear Migraciones y aplicar las dependencias
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
 ### 3. Restaurar dependencias
 
 dotnet restore
@@ -50,17 +55,7 @@ dotnet restore
 
 dotnet run
 
-#### La API estara disponible en localhost
-
-## Para crear la Base de datos con SQLite
-
-### 1. Crear las migraciones
-
-dotnet ef migrations add InitialCreate
-
-### 2. Aplicar las migraciones
-
-dotnet ef database update
+#### La API estara disponible en localhost:5092
 
 #### La base de datos se crea automáticamente al aplicar las migraciones.
 
