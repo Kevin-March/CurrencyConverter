@@ -159,3 +159,4 @@
 /Users/kevinmarch/Desktop/Trabajos/CLT/prueba_tecnica/CurrencyApi/obj/Debug/net10.0/CurrencyApi.genruntimeconfig.cache
 /Users/kevinmarch/Desktop/Trabajos/CLT/prueba_tecnica/CurrencyApi/obj/Debug/net10.0/ref/CurrencyApi.dll
 /Users/kevinmarch/Desktop/Trabajos/CLT/prueba_tecnica/CurrencyApi/bin/Debug/net10.0/BCrypt.Net-Next.dll
+/Users/kevinmarch/Desktop/Trabajos/CLT/prueba_tecnica/CurrencyApi/obj/Debug/net10.0/CurrencyApi.sourcelink.json

@@ -14,8 +14,8 @@ using System.Text.Json.Serialization;
 // -------------------- Configuración básica --------------------
 var builder = WebApplication.CreateBuilder(args);
 
-// Leer API Key desde .env o appsettings.json
-var apiKey = Environment.GetEnvironmentVariable("API_KEY") ?? "default_api_key";
+// Leer API Key desde appsettings.json
+var apiKey = builder.Configuration.GetValue<string>("ApiKey") ?? "default_api_key";
 
 // Agregar DbContext SQLite
 builder.Services.AddDbContext<AppDbContext>(options =>
