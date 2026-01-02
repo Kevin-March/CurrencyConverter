@@ -1,6 +1,6 @@
 # Prueba Técnica – API REST .NET 10 (Minimal API)
 
-## 📌 Descripción general
+## Descripción general
 
 Este proyecto implementa una **API REST desarrollada en .NET 10 usando Minimal APIs**, como parte de una prueba técnica.  
 La API incluye:
@@ -17,19 +17,21 @@ El proyecto **compila y levanta correctamente**, cumpliendo los requisitos funci
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- .NET 10
-- ASP.NET Core Minimal API
-- Entity Framework Core
-- SQLite
-- FluentValidation
-- BCrypt (hash de contraseñas)
-- CQRS (sin mediator, enfoque simplificado)
+## Referencias técnicas
+
+Versiones principales usadas:
+.NET 10
+Entity Framework Core 10.0.1
+FluentValidation 12.1.1
+SQLite
+Patrón CQRS simplificado: Commands y Queries separados por carpeta.
+Hash de contraseñas: BCrypt 4.0.3
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ### 1. Requisitos
 
@@ -72,3 +74,5 @@ La API Key de prueba configurada en `appsettings.json` es: api-key-prueba-akakak
     •	Direcciones (Addresses)-> Crear, listar por usuario, modificar y eliminar
     •	Monedas (Currencies)-> Listar, crear y conversión de divisas
     •	Seguridad-> Middleware de API Key
+
+#### Escribi el HttpRequests.md para que puedan copiar y pegar los curls asi no tienen que escribir todos las pruebas de endpoints
